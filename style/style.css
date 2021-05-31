@@ -19,47 +19,16 @@
  text-decoration:underline;
  display:block;
 }
-#book, #movie, #musik, #game{
- background:yellow;
- border:1px solid red;
- position:absolute;
- left:110px;
- top:15px;
- width:120px;
- height:100px;
+#spisok1{
+list-style-type:disk;
 }
-#book{
- z-index:1;
+#spisok2{
+list-style-type:circle;
 }
-#movie{
- z-index:2;
+#spisok3{
+list-style-type:square;
 }
-#musik{
- z-index:3;
-}
-#game{
- z-index:4;
-}
-#book a, #movie a, #musik a, #game a{
-display:block;
-color:red;
-text-decoration:none;
-}
-#book a:hover, #movie a:hover, #musik a:hover, #game a:hover{
-display:block;
-color:pink;
-text-decoration:underline;
-}
-#book, #movie, #musik, #game{
- background:yellow;
- border:1px solid red;
- position:absolute;
- left:110px;
- top:15px;
- width:120px;
- height:100px;
- visibility:hidden;
-}
+
 
 
 
